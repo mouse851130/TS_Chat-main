@@ -1,5 +1,3 @@
-# bruce_nodejs_project_template
-
 ## 如何使用？
 
 1. 進入專案目錄，先安裝node_module依賴
