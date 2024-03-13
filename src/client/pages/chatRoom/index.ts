@@ -142,6 +142,7 @@ function msgHandler(data: UserMsg) {
     }
 
     // 4-6-4 把完成的新的對話框加到html裡面
+    console.log('')
     chatBoard.appendChild(divBox)
 
     // 4-7(4-8: chatroom/index.html) 把輸入框內容清除並自動scroll到最下方
