@@ -79,6 +79,7 @@ function msgHandler(data: UserMsg) {
       `
     }
 
+    // 4-6-4 把完成的新的對話框加到html裡面
     chatBoard.appendChild(divBox)
     textInput.value = ''
     chatBoard.scrollTop = chatBoard.scrollHeight

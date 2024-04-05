@@ -8,7 +8,8 @@
     "dev": "cross-env NODE_ENV=development nodemon ./src/index.ts",
     "start": "cross-env NODE_ENV=production ts-node ./src/index.ts",
     "prettier": "prettier -w ./src",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
@@ -27,6 +28,7 @@
     "css-loader": "^5.2.6",
     "cssnano": "^5.0.15",
     "express": "^4.17.2",
+    "gh-pages": "^6.1.1",
     "html-webpack-plugin": "^5.3.1",
     "mini-css-extract-plugin": "^1.6.0",
     "moment": "^2.29.4",
